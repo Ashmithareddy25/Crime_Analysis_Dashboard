@@ -70,10 +70,10 @@ with tab1:
     """)
 
 # --- Load datasets common for Tab2 ---
-crime_data_usa = pd.read_csv('Data\crime_data.csv')
-crime_data_ml = pd.read_csv('Data\crime__data.csv')
-weapon_data = pd.read_csv('Data\cleaned_weapon_data.csv')
-hate_crimes = pd.read_csv('Data\Hate_Crimes.csv')
+crime_data_usa = pd.read_csv('VA_Project_Final\Data\crime_data.csv')
+crime_data_ml = pd.read_csv('VA_Project_Final\Data\crime__data.csv')
+weapon_data = pd.read_csv('VA_Project_Final\Data\cleaned_weapon_data.csv')
+hate_crimes = pd.read_csv('VA_Project_Final\Data\Hate_Crimes.csv')
 
 weapon_data.rename(columns={"Unnamed: 0": "Weapon Type"}, inplace=True)
 
